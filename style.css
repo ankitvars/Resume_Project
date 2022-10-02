@@ -388,10 +388,11 @@ section:target{
 #portfolio-container {
     box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     width: 100%;
     padding: 0 50px;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     justify-content: space-around;
 }
 
@@ -430,7 +431,7 @@ section:target{
 .portfolio-image-container:hover .portfolio-details {
     background-color: #80808078;
     /* display: block; */
-    color: white;
+    color: darkgoldenrod;
 }
 
 
